@@ -1,5 +1,6 @@
 # no
 It is a pice of software that simulates the the differences of pressure created at the surface of an object traveling through a homogeneous environment . 
+
 Worning this app is designed on the Direct X framework
 
 The mathematics behind calculating and simulating such action are qite simple:
@@ -10,8 +11,13 @@ The mathematics behind calculating and simulating such action are qite simple:
 4 We display the result by modifying the color shaders of the object , letting the pixel to take the value of the equation 
 
 Status:
+
 All the rndering and positionnig calculations are done 
+
 Things that are currently in progres 
+
 -Inserting the math equation 
+
 -Creating the playground map 
+
 -Giving the user a playable character 
