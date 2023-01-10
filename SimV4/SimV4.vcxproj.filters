@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Boot">
+      <UniqueIdentifier>{8e936cd8-62ce-4f17-9d11-811114edaa48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{14bb6d6a-8ab0-407d-8268-74cebf182491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{44292bce-edae-4bb8-a45d-62cfbcf436e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEn">
+      <UniqueIdentifier>{6f51e56c-799d-427b-92be-f9010191e2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PhysicsEn">
+      <UniqueIdentifier>{fd671955-f700-49e9-b6c9-4ff6d943cf40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEn\SwapChain">
+      <UniqueIdentifier>{81a09501-849b-4ad8-834d-36350f9944ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEn\DeviceContext">
+      <UniqueIdentifier>{c7bbb8f7-44c5-4d13-ac32-2a820e5ddb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEn\VertexBuffer">
+      <UniqueIdentifier>{d1f36a4a-1478-4053-a8cc-cc80f4edd66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEn\VertexShader">
+      <UniqueIdentifier>{dd55e5c1-a77f-4de8-9972-28a150c1af60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEn\PixelShader">
+      <UniqueIdentifier>{9f569a6d-54f4-473e-be47-b5e77bea19a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsEn\ConstBuffer">
+      <UniqueIdentifier>{b84eaba9-a194-49ee-9575-07283fcca3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Fun">
+      <UniqueIdentifier>{64b29b52-f5d7-43df-904a-1c36d599735b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Boot.cpp">
+      <Filter>Boot</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="AppW.cpp">
+      <Filter>Boot</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEn.cpp">
+      <Filter>Engine\GraphicsEn</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>Engine\GraphicsEn\SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceContext.cpp">
+      <Filter>Engine\GraphicsEn\DeviceContext</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>Engine\GraphicsEn\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Engine\GraphicsEn\VertexShader</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Engine\GraphicsEn\PixelShader</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstBuffer.cpp">
+      <Filter>Engine\GraphicsEn\ConstBuffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="AppW.h">
+      <Filter>Boot</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEn.h">
+      <Filter>Engine\GraphicsEn</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>Engine\GraphicsEn\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceContext.h">
+      <Filter>Engine\GraphicsEn\DeviceContext</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Engine\GraphicsEn\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Engine\GraphicsEn\VertexShader</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>Engine\GraphicsEn\PixelShader</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstBuffer.h">
+      <Filter>Engine\GraphicsEn\ConstBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Engine\Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Engine\Fun</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Boot</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Boot</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
